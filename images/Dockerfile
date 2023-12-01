@@ -40,6 +40,10 @@ RUN apt-get install -y ocl-icd-opencl-dev opencl-clhpp-headers
 
 RUN apt-get install -y git
 
+#если используется Windows, то установить Xming
+#https://sourceforge.net/projects/xming/
+ENV DISPLAY=host.docker.internal:0.0
+
 #USER sdl
 
 
