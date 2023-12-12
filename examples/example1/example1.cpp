@@ -6,11 +6,11 @@ using namespace cv;
 int main()
 
 {     
-    cv::Mat image1,image2; 
-    image1=cv::imread("i1.jpg"); //имя файла изображения
+    cv::Mat image1; 
+    image1=cv::imread("/home/sdl/examplesOpenCV/examples/example1/OpenCV.jpg"); //имя файла изображения
     cv::namedWindow("image1",cv::WINDOW_AUTOSIZE); 
-    cv::imshow("image1",image1); // created the window by name image1 
+    cv::imshow("image1",image1); // окно для просмотра
     cv::waitKey(0); 
     cv::destroyWindow("image1");     
     return 0; 
-}
+} 
