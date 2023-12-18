@@ -8,7 +8,7 @@ int main(){
  
   // Create a VideoCapture object and open the input file
   // If the input is the web camera, pass 0 instead of the video file name
-  VideoCapture cap("https://file-examples.com/storage/fed2530f4765780b09aff74/2017/04/file_example_MP4_480_1_5MG.mp4"); 
+  VideoCapture cap("/home/sdl/examplesOpenCV/examples/example2/TheaterSquare_640x360.mp4"); 
     
   // Check if camera opened successfully
   if(!cap.isOpened()){
